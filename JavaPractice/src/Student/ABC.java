@@ -5,6 +5,7 @@ public class ABC {
 	public ABC() {
 		this(7,5,3);
 		System.out.println("Default constructor");
+		System.out.println("learned commiting code in github");
 	}
 	public ABC(int a)
 	{
