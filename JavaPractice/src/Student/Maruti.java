@@ -26,4 +26,8 @@ public class Maruti {
 		this();
 		System.out.println("Parent four parameterized constructor.");
 	}
+	public void m1()
+	{
+		System.out.println("This is maruti class");
+	}
 }

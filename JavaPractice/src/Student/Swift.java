@@ -16,6 +16,7 @@ public class Swift extends Maruti {
 	{
 		super(5);
 		System.out.println("Child two parametrized constructor");
+		
 	}
 	public Swift(int a, int b, int c)
 	{
@@ -27,7 +28,13 @@ public class Swift extends Maruti {
 		this(5,6,7);
 		System.out.println("Child four parametrized constructor");
 	}
+	public void m2()
+	{
+		System.out.println("This is swift class");
+	}
 	public static void main(String[] args) {
 		Swift ob=new Swift(3);
+		ob.m1();
+		ob.m2();
 	}
 }
